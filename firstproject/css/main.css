@@ -1,0 +1,479 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+	background-color: #F4F3E6;
+	margin: 0 0 0 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+
+/*SLIDER*/
+
+.slider {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 30em;
+	width: 100%;
+	padding: 0;
+}
+
+.slider li {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slider .slide1 {
+	background-image: url("../img/slider/4.jpg");
+}
+
+.slider .slide2 {
+	background-image: url("../img/slider/2.jpg");
+}
+.slider .slide3 {
+	background-image: url("../img/slider/3.jpg");
+}
+.slider .slide4 {
+	background-image: url("../img/slider/1.jpg");
+}
+
+.slider li.active {
+	display: block;
+}
+
+
+/*END OF SLIDER*/
+
+/*LOGO*/
+
+.logo {
+	text-align: center;
+	font-size: 1.7em;
+	
+	
+	/*padding-left: 15em;
+	padding-top: 4em;*/
+}
+
+.logo a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.logo a:hover {
+	color: #53ADC7;
+}
+
+/*END OF LOGO*/
+
+
+/*NAVIGATION*/
+
+.navbarcl {
+	background-color: white;
+	margin-top: 0;
+	padding-top: 1.2em;
+}
+
+.navbar {
+	margin: 0;
+	height: 3em;
+}
+
+.navbar li {
+	float: left;
+	list-style-type: none;
+	padding: 0.5em;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	height: inherit;
+}
+
+.navbar li:hover {
+	color: #53ADC7;
+	border-bottom: 0.3em solid #53ADC7;
+}
+
+
+/*END OF NAVIGATION*/
+
+/*MAIL + H */
+
+.mailinglist {
+	color: white;
+	background-color: #162838;
+	width: 100%;
+	height: 10em;
+	margin: 0;
+}
+
+#submit {
+	border: none;
+	background-color: #53ADC7;
+	color: white;
+	padding: 10px;
+}
+
+
+#mail {
+	background-color: #162838;
+	border: none;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+.field {
+	border:none;
+}
+
+fieldset {
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h2 {
+	color: #53ADC7;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+h4 {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/*END OF MAIL + H */
+
+
+/*INFO BLOCK + PIC */
+
+.info {
+	height: 23em;
+	/*border: 1px solid;*/
+	background-color: white;
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+.info a {
+	text-decoration: none;
+	color: black;
+}
+
+.info a:hover {
+	color: #53ADC7;
+}
+
+.info3 {
+	height: 23em;
+	/*border: 1px solid;*/
+	background-color: white;
+	margin-top: 0;
+}
+
+.info3 a {
+	text-decoration: none;
+	color: black;
+}
+
+.info3 a:hover {
+	color: #53ADC7;
+}
+
+.pic {
+	height: 13em;
+	/*border: 1px solid;*/
+	/*background-color: white;*/
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.pic2 {
+	height: 13em;
+	margin-top: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.piclast {
+	height: 13em;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.piclast1 {
+	height: 13em;
+	overflow: hidden;
+}
+
+.video {
+	width: 100%;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.video2 {
+	width: 100%;
+	overflow: hidden;
+	padding-left: 0;
+}
+
+/* END OF INFO BLOCK */
+
+.merch {
+	background-color: #53ADC7;
+	height: 25em;
+}
+
+.tweets {
+	background-color: #162838;
+	height: 25em;
+}
+
+.block {
+	color: white;
+	font-size: 2em;
+	padding-left: 2em;
+	padding-top: 1.5em;
+}
+
+/* FOOTER */
+
+.footicn {
+	background-color: #FDFEFC;
+	height: 5em;
+	margin-top: 2em;
+}
+
+.reprise {
+	background-color: black;
+	color: white;
+	height: 4em;
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.foot {
+	background-color: #FDFEFC;
+}
+
+/* END OF FOOTER */
+
+/* BUTTONS */
+
+.viewmore {
+	background-color: #53ADC7;
+	color: white;
+	border: none;
+	height: 1.5em;
+	width: 15em;
+	margin-top: 2em;
+	float: right;
+}
+
+.viewmore:hover {
+	background-color: #162838;
+	color: white;
+}
+
+.readmore {
+	background-color: white;
+	color: #53ADC7;
+	border: none;
+	height: 1.5em;
+	width: 10em;
+}
+
+.readmore:hover {
+	color: black;
+}
+
+/* END OF BUTTONS */
+
+
+/* 640px */
+
+@media screen and (max-width: 640px) {
+	.slider {
+		width: 100%;
+		height: 15em;
+	}
+
+	.col-mid-12 {
+		width: 100%;
+	}
+
+	.col-mid-6 {
+		width: 50%;
+	} 
+
+	.offset-min-0 {
+        margin-left: 0;
+    }
+
+    .logo {
+    	text-align: center;
+    	margin-bottom: 0.8em;
+    }
+
+    .logo:hover {
+    	color: #53ADC7;
+    }
+
+    .navbar {
+    	display: none;
+    	background: white;
+    	padding-left: 7px;
+        padding-right: 7px;
+        height: 100%;
+    }
+
+    .navbar li {
+    	float: none;
+    	border-top: 1px solid #53ADC7;
+    	text-align: center;
+    }
+
+    .navbarcl:hover .navbar {
+    	display: block;
+    }
+
+    .info, .info3 {
+    	height: 35em;
+    	margin: 0.5em;
+    }
+
+    img {
+    	height: auto;
+    	width: 100%;
+    }
+
+    h1 {
+    	text-align: center;
+    }
+
+    .col-mid-hidden {
+    	display: none;
+    }
+
+    .pic, .pic2 {
+    	margin: 0.5em;
+    }
+
+    .viewmore {
+    	margin-right: 0.5em;
+    }
+
+    .video {
+    	width: 100%;
+    	margin-left: 1em;
+    	margin-right: 1em;
+    	margin-bottom: 1em;
+    }
+
+    .block, .footicn {
+    	margin-top: 0;
+   
+}
+
+/* 480px */ 
+
+@media screen and (max-width: 480px) {
+	.slider {
+		width: 100%;
+		height: 12em;
+	}
+
+	.col-min-12 {
+		width: 100%;
+	}
+
+	.offset-min-0 {
+        margin-left: 0;
+    }
+
+    .logo {
+    	text-align: center;
+    	margin-bottom: 0.8em;
+    }
+
+    .logo:hover {
+    	color: #53ADC7;
+    }
+
+    .navbar {
+    	display: none;
+    	background: white;
+    	padding-left: 7px;
+        padding-right: 7px;
+        height: 100%;
+    }
+
+    .navbar li {
+    	float: none;
+    	border-top: 1px solid #53ADC7;
+    	text-align: center;
+    }
+
+    .navbarcl:hover .navbar {
+    	display: block;
+    }
+
+    .info, .info3 {
+    	height: 28em;
+    	margin: 0.5em;
+    }
+
+    .col-min-6 {
+    	width: 50%;
+    }
+
+    h1 {
+    	text-align: center;
+    }
+
+    .col-min-hidden {
+    	display: none;
+    }
+
+    .video {
+    	margin-bottom: 1em;
+    	overflow: hidden;
+    	margin-left: 0; 
+
+    }
+
+    .pic, .pic2 {
+    	margin: 0.5em;
+    }
+
+    .block, .footicn {
+    	margin-top: 0;
+    }
+
+    .viewmore {
+    	margin-right: 0.5em;
+    }
+
+    img {
+    	height: auto;
+    	width: 100%;
+    }
+
+}
